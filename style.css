@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+form input {
+    height: 35px;
+    font-size: 22px;
+    max-width: 250px;
+    width: 100%;
+    cursor: unset;
+}
+
+input:disabled {
+    cursor: not-allowed;
+}
+
+.btns {
+    margin-block: 1rem;
+}
+
+.start-game-btn {
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid black;
+    background-color: #00FFFF;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.start-game-btn:disabled {
+    cursor: not-allowed;
+}
+
+.submit-btn:disabled {
+    cursor: not-allowed;
+}
