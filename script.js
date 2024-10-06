@@ -36,6 +36,7 @@
       startGame.disabled = false;
       submitBtn.disabled = true;
       userInput.disabled = true;
+      userInput.value = ""; // Clear the input
       startGame.focus();
       return;
     }
